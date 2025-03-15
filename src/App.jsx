@@ -1,21 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import NavBar from "./components/NavBar";
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Projects from './Pages/Projects'
+import Contact from './Pages/Contact'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="container mx-auto p-4">
-    <h1 className="text-3xl font-bold text-center text-blue-600">
-      Tailwind CSS is working!
-    </h1>
-    <p className="text-center mt-2 text-gray-700">
-      This is a simple example of Tailwind CSS in action.
-    </p>
-  </div>
-  )
+    <main className="bg-slate-300/20">
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </main>
+  );
 }
 
-export default App
+export default App;

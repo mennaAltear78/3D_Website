@@ -1,0 +1,50 @@
+
+      .sliderL {
+        width: 40px;
+        height: 24px;
+        background-image: linear-gradient(to right, #e21ee9, #fd00f191, #c0295b);
+
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        margin-left: 10px;
+      }
+      
+      .sliderR {
+        width: 40px;
+        height: 24px;
+        background: linear-gradient(to right, #10101150, #232323, #000000a6);
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        padding: 2px;
+        cursor: pointer;
+        transition: all 0.4s ease;
+        margin-left: 10px;
+      }
+      
+      .CircleR {
+        width: 20px;
+        height: 20.5px;
+        background: white;
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        transform: translateX(0%);
+        
+      }
+      
+      .CircleL {
+        width: 20px;
+        height: 20px;
+        background: white;
+        border-radius: 50%;
+        transition: all 0.4s ease;
+        transform: translateX(16px);
+      }
+      .addCost p{
+        color:orange;
+        font-size: 10px;
+      }
