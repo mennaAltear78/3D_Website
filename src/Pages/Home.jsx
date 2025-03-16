@@ -5,6 +5,7 @@ import Sky from "../models/Sky";
 import AuthContext from "../Hooks/Auth-context";
 import Bird from "../models/Bird";
 import Plane from "../models/Plane";
+import HomeInfo from "../components/HomeInfo";
 
 function Home() {
   const ctx = useContext(AuthContext);
@@ -38,6 +39,9 @@ function Home() {
   const [PlaneScale, PlanePostion] = adjustPlaneForScreenSize();
   return (
     <section className="w-full h-screen relative">
+      <div className="absolute top-20 right-0 left-0 z-10 flex justify-center ">
+              {current && <HomeInfo current={current}/>}
+      </div>
       <Canvas
         className={`w-full h-screen bg-transparent ${isRotating?'cursor-grabbing':'cursor-grab'}`}
         camera={{ near: 0.1, far: 1000 }}
