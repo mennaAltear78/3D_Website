@@ -8,15 +8,18 @@ import Plane from "../models/Plane";
 
 function Home() {
   const ctx = useContext(AuthContext);
+  const [current,setCurrentStage]=useState(1)
   const [isRotating ,setIsRotating]=useState(false)
   const adjustPlaneForScreenSize = () => {
     let screenScale, screenPostion
     if (window.innerWidth < 768) {
-      screenScale = [1.5, 1.5, 1.5];
-      screenPostion=[0,1,1]
+      screenScale = [2, 2, 2];
+      // screenScale = [3, 3, 3];
+      screenPostion=[-1,1,-5]
     } else {
-      screenScale = [3, 4, 3];
-      screenPostion=[-2,-2,-7]
+      screenScale = [3, 3, 3];
+      // screenScale = [0.5, 1.5, 1.5];
+      screenPostion=[-2,-1,-5]
     }
     return [screenScale, screenPostion];
   };
@@ -50,7 +53,7 @@ function Home() {
             groundColor="#000000"
             intensity={1}
           />
-          <Sky />
+          <Sky isRotating={isRotating} />
           <Bird />
           <Plane
            position={PlanePostion}
@@ -65,6 +68,7 @@ function Home() {
             rotaion={rotation}
             isRotating={isRotating}
             setIsRotating={setIsRotating}
+            setCurrentStage={setCurrentStage}
           />
         </Suspense>
       </Canvas>
