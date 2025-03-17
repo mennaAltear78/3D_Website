@@ -26,7 +26,7 @@ function Home() {
   };
   const adjustIlandForScreenSize = () => {
     let screenScale = null;
-    let screenPostion = [0, -6.5, -43];
+    let screenPostion = [0, -8, -40];
     let rotation = [0.1, 4.7, 0];
     if (window.innerWidth < 768) {
       screenScale = [0.9, 0.9, 0.9];

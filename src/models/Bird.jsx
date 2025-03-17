@@ -22,10 +22,10 @@ useFrame(({ camera,clock }) => {
     ref.current.rotation.y = 0;
   }
 
-  if (ref.current.position.x < 10) {
+  if (ref.current.position.y=== 0) {
     // ref.current.rotation.y =Math.PI;
-    ref.current.position.x += 0.01;
-    // ref.current.position.z +=0.01
+    // ref.current.position.x += 0.01;
+    ref.current.position.z -=0.01
   } else if(ref.current.position.x < 10) {
     // ref.current.rotation.x=0
     // ref.current.position.x -= 0.1;
