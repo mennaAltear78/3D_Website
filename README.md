@@ -28,8 +28,8 @@ Once it detects a change in the input, it starts processing, and the change is t
 which moves normally during the change field. However, the actual action is only performed when the form is submitted.
 
 ![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20154731.png)
-link of the video:
-Mian: https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12
 
-Contact: https://github.com/user-attachments/assets/ff2fb095-b8ca-406e-a30e-345a0624814b
+link of the video: https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12
+
+
 
