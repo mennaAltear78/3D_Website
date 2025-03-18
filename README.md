@@ -7,7 +7,7 @@ We will start showing how the light changes with the transition between dark and
 a popup message appears when you reach a specific island, inviting you to explore new things.
 
 ![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20154813.png)
-![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20154859.png)
+![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20164104.png)
 
 link of the video: https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12
 
