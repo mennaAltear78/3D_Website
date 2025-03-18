@@ -23,9 +23,9 @@ a popup message appears when you reach a specific island, inviting you to explor
 
 link of the video: https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12
 
-where The contact is a form that interacts with the user.
+The contact is a form that interacts with the user.
 Once it detects a change in the input, it starts processing, and the change is the movement of the fox,
-which moves normally during the change field. However, the actual action is only performed when the form is submitted.
+which moves normally during the change in the field. However, the actual action of running is only performed when the form is submitted.
 
 ![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20154731.png)
 
