@@ -17,6 +17,6 @@ Since the 3D project was heavy on Vercel and it was difficult to deploy, I decid
 ![image](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/Screenshot%202025-03-18%20154731.png)
 
 link of the video:
-[Watch the video](https://github.com/mennaAltear78/portfolio/blob/main/src/assets/three.js.mp4)](https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12)
+https://github.com/user-attachments/assets/8f022086-f90d-4960-8608-db55ab8e2f12
 
 
